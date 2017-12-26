@@ -1,3 +1,7 @@
+
+body{
+    background-color: #f3f3f3;
+}
 /*header*/
 .navbar-brand {
     float: none;
@@ -20,8 +24,37 @@
     background-color: #fff;
     border-radius: 5px;
 }
- .navbar-default .navbar-nav>li>a {
-     color: #efefef;
-     text-align: center;
- }
+.navbar-default .navbar-nav>li>a {
+    color: #efefef;
+    text-align: center;
+}
 /*header*/
+/*首页轮播*/
+.cut img{
+    width: 100%;
+}
+.appear{
+    display: block;
+}
+.disappear{
+    display: none;
+}
+/*footer*/
+.footer .tube img{
+    margin-top: 6%;
+    width: 10%;
+}
+.footer .tube{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+}
+.footer-nut .col-xs-12{
+    font-size: 24px;
+}
+/*footer*/
+.tea{
+    color: #080808;
+    width: 50px;
+    height: 50px;
+}
