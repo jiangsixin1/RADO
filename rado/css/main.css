@@ -58,6 +58,22 @@ body {
   margin-top: 12px;
   text-align: center; }
 
+/*腕表页*/
+.boot {
+  padding: 0px 8px 0px 8px; }
+  .boot .tean {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 25px; }
+    .boot .tean img {
+      width: 50%; }
+    .boot .tean p {
+      color: #000;
+      margin-bottom: 90px;
+      margin-top: 24px;
+      font-size: 16px; }
+
+/*腕表页*/
 /*footer*/
 .footer .tube img {
   margin-top: 6%;

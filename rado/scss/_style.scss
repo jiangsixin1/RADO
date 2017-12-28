@@ -59,6 +59,26 @@ body{
 }
 
 
+/*腕表页*/
+.boot{
+  padding: 0px 8px 0px 8px;
+  .tean{
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+    img{
+      width: 50%;
+    }
+    p{
+      color: #000;
+      margin-bottom: 90px;
+      margin-top: 24px;
+      font-size: 16px;
+    }
+  }
+}
+/*腕表页*/
+
 /*footer*/
 .footer .tube img{
   margin-top: 6%;
