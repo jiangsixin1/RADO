@@ -1,99 +1,178 @@
+/*合写部分*/
+.tue {
+  .tve {
+    margin-top: 12px;
+    padding: 0 12px 0 12px;
+    img {
+      width: 100%;
+    }
+  }
+}
 
-body{
+/*合写部分*/
+/*header*/
+body {
   background-color: #f3f3f3;
 }
+
 /*header*/
 .navbar {
-   margin-bottom: 15px;
-   border: none;
+  margin-bottom: 15px;
+  border: none;
 }
+
 .navbar-brand {
   float: none;
   height: 0px;
-  padding:0px;
+  padding: 0px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   height: 50px;
   margin: auto;
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
 .navbar-default {
   background-color: #080808;
   border-color: #337ab7;
 }
+
 .navbar-toggle {
   padding: 9px 10px;
   margin-top: 21px;
   background-color: #fff;
   border-radius: 5px;
 }
-.navbar-default .navbar-nav>li>a {
+
+.navbar-default .navbar-nav > li > a {
   color: #efefef;
   text-align: center;
 }
+
 /*header*/
 /*首页轮播*/
-.cut img{
+.cut img {
   width: 100%;
 }
-.appear{
+
+.appear {
   display: block;
 }
-.disappear{
+
+.disappear {
   display: none;
 }
+
 /*首页轮播*/
-.scv .civ{
+.scv .civ {
   margin-bottom: 8px;
   margin-top: 6px;
   background-color: #fff;
 }
-.scv .civ img{
+
+.scv .civ img {
   width: 100%;
 }
-.scv .civ p{
+
+.scv .civ p {
   font-size: 14px;
   margin-top: 12px;
   text-align: center;
 }
 
-
 /*腕表页*/
-.boot{
+.boot {
   padding: 0px 8px 0px 8px;
-  .tean{
+  .tean {
     background-color: #fff;
     text-align: center;
     margin-bottom: 25px;
-    img{
+    img {
       width: 50%;
     }
-    p{
+    p {
       color: #000;
       margin-bottom: 90px;
       margin-top: 24px;
       font-size: 16px;
     }
   }
+  .tve {
+    background-color: #fff;
+    margin-bottom: 25px;
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
+    p {
+      color: #000;
+      margin-bottom: 10px;
+      margin-top: 24px;
+      font-size: 16px;
+    }
+  }
 }
+
 /*腕表页*/
 
+/*关于我们*/
+.aver {
+  h4 {
+    padding: 0px 8px 0px 8px;
+  }
+  padding: 0px 12px;
+  .acr {
+    width: 100%;
+    font-size: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 0px;
+    p {
+      font-family: serif;
+      margin-bottom: 70px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .pic {
+    margin-top: 12px;
+    background-color: #fff;
+    padding: 0;
+    img {
+      width: 100%;
+    }
+    p {
+      padding: 0px 10px 0px 10px;
+      font-size: 10px;
+      font-family: serif;
+      color: #000;
+    }
+  }
+}
+
+/*关于我们*/
+
 /*footer*/
-.footer .tube img{
+.footer .tube img {
   margin-top: 6%;
   width: 10%;
 }
-.footer .tube{
+
+.footer .tube {
   background-color: #fff;
   width: 100%;
   padding: 20px 0;
 }
-.footer-nut .col-xs-12{
+
+.footer-nut .col-xs-12 {
   font-size: 24px;
 }
+
 /*footer*/
-.tea{
+.tea {
   color: #080808;
   width: 50px;
   height: 50px;
