@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /*! 盛邦升华 */
+li {
+  list-style: none; }
+
 /*合写部分*/
 .tue .tve {
   margin-top: 12px;
@@ -44,6 +47,9 @@ body {
 
 /*header*/
 /*首页轮播*/
+.cut {
+  padding: 0 12px; }
+
 .cut img {
   width: 100%; }
 
@@ -54,22 +60,28 @@ body {
   display: none; }
 
 /*首页轮播*/
+.scv {
+  padding: 0 12px; }
+
 .scv .civ {
+  padding: 0;
   margin-bottom: 8px;
   margin-top: 6px;
   background-color: #fff; }
 
 .scv .civ img {
+  padding: 0;
   width: 100%; }
 
 .scv .civ p {
+  padding: 0;
   font-size: 14px;
   margin-top: 12px;
   text-align: center; }
 
 /*腕表页*/
 .boot {
-  padding: 0px 8px 0px 8px; }
+  padding: 0px 12px 0px 12px; }
   .boot .tean {
     background-color: #fff;
     text-align: center;
@@ -93,6 +105,26 @@ body {
       margin-top: 24px;
       font-size: 16px; }
 
+/*详情页*/
+.tol {
+  line-height: 25px;
+  font-family: serif;
+  padding: 0 12px; }
+  .tol .nutv {
+    background-color: #fff; }
+    .tol .nutv h3 {
+      margin: 16px 0;
+      text-align: center; }
+  .tol .tcr {
+    margin: 12px 0;
+    background-color: #fff; }
+    .tol .tcr p {
+      margin: 0px 100px 15px 100px;
+      text-align: center;
+      border: 1px #000 solid;
+      background-color: #fff; }
+
+/*详情页*/
 /*腕表页*/
 /*关于我们*/
 .aver {
@@ -122,11 +154,25 @@ body {
       font-family: serif;
       color: #000; }
 
+.tue {
+  padding: 0 12px 0 12px; }
+  .tue .tve {
+    padding: 0;
+    background-color: #fff; }
+    .tue .tve p {
+      padding-left: 36px;
+      margin: 28px 0px 29px 0px;
+      font-family: serif;
+      color: #000; }
+
 /*关于我们*/
 /*footer*/
 .footer .tube img {
   margin-top: 6%;
   width: 10%; }
+
+.footer .cove {
+  margin-top: 12px; }
 
 .footer .tube {
   background-color: #fff;

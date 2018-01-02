@@ -1,3 +1,6 @@
+li{
+  list-style: none;
+}
 /*合写部分*/
 .tue {
   .tve {
@@ -53,6 +56,9 @@ body {
 
 /*header*/
 /*首页轮播*/
+.cut{
+  padding: 0 12px;
+}
 .cut img {
   width: 100%;
 }
@@ -66,17 +72,23 @@ body {
 }
 
 /*首页轮播*/
+.scv{
+  padding: 0 12px;
+}
 .scv .civ {
+  padding: 0;
   margin-bottom: 8px;
   margin-top: 6px;
   background-color: #fff;
 }
 
 .scv .civ img {
+  padding: 0;
   width: 100%;
 }
 
 .scv .civ p {
+  padding: 0;
   font-size: 14px;
   margin-top: 12px;
   text-align: center;
@@ -84,7 +96,7 @@ body {
 
 /*腕表页*/
 .boot {
-  padding: 0px 8px 0px 8px;
+  padding: 0px 12px 0px 12px;
   .tean {
     background-color: #fff;
     text-align: center;
@@ -115,6 +127,30 @@ body {
   }
 }
 
+/*详情页*/
+.tol{
+  line-height: 25px;
+  font-family: serif;
+  padding: 0 12px;
+  .nutv{
+    background-color: #fff;
+    h3{
+      margin: 16px 0;
+      text-align: center;
+    }
+  }
+  .tcr{
+    margin:12px 0;
+    background-color: #fff;
+    p{
+      margin:0px 100px 15px 100px;
+      text-align: center;
+      border: 1px #000 solid;
+      background-color: #fff;
+    }
+  }
+}
+/*详情页*/
 /*腕表页*/
 
 /*关于我们*/
@@ -152,6 +188,19 @@ body {
     }
   }
 }
+.tue{
+  padding: 0 12px 0 12px;
+  .tve{
+    padding: 0;
+    background-color: #fff;
+    p{
+      padding-left: 36px;
+      margin: 28px 0px 29px 0px;
+      font-family: serif;
+      color: #000;
+    }
+  }
+}
 
 /*关于我们*/
 
@@ -160,7 +209,9 @@ body {
   margin-top: 6%;
   width: 10%;
 }
-
+.footer .cove{
+  margin-top: 12px;
+}
 .footer .tube {
   background-color: #fff;
   width: 100%;
